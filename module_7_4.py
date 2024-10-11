@@ -8,9 +8,12 @@ score_1 = 48
 score_2 = 52
 team1_time = 1852.625
 team2_time = 2353.375
+
 tasks_total = score_1 + score_2
+
 time_avg = (team1_time + team2_time) / tasks_total
 
+# challenge_result
 if score_1 > score_2 or score_1 == score_2 and team1_time > team2_time:
     challenge_result = 'Победа команды Мастера кода!'
 elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
